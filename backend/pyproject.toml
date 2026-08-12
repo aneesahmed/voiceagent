@@ -1,0 +1,17 @@
+[project]
+name = "voiceagent-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "websockets",
+    "google-genai",
+    "pyyaml",
+    "python-dotenv",
+    "pydantic",
+    "httpx",
+]
+
+[tool.uv]
+package = false

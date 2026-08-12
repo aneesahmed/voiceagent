@@ -1,0 +1,46 @@
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs & Editors
+# =========================
+.idea/
+.vscode/*
+
+# Keep Claude-specific settings and essential VS Code configs
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.claude*
+!.claude.json
+!.clinerules
+!.clauderc
+
+# =========================
+# Backend (Python / FastAPI / uv)
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.env.*
+.uv.cache/
+# Note: uv.lock is intentionally NOT ignored. It should be committed to version control.
+
+# =========================
+# Frontend (React / npm)
+# =========================
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
