@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Persona } from "./types";
-
-const API_BASE_URL = "http://localhost:8001";
+import { API_BASE_URL } from "./apiConfig";
 
 interface PersonaPickerProps {
   onSelect: (persona: Persona) => void;

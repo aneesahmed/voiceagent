@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-const API_BASE_URL = "http://localhost:8001";
+import { API_BASE_URL } from "./apiConfig";
 
 interface KBDocument {
   filename: string;

@@ -1,8 +1,7 @@
 import { useCallback, useRef, useState } from "react";
 import { CallAdapter } from "./CallAdapter";
 import type { CallStatus, Persona } from "./types";
-
-const WS_BASE_URL = "ws://localhost:8001/audio";
+import { WS_BASE_URL } from "./apiConfig";
 const MAX_LOG_LINES = 100;
 
 const STATUS_LABEL: Record<CallStatus, string> = {
